@@ -1,0 +1,8 @@
+/build
+/Makefile
+/*.kdevelop*
+/*.kdevses*
+/tags
+*~
+Doxyfile
+*.kdev4
