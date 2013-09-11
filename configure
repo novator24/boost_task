@@ -2,12 +2,12 @@
 
 # based on nvidia-texture-tools make files
 
-# Make sure cmake is available.
-if command -v cmake >/dev/null 2>&1;
+# Make sure cmake28 is available.
+if command -v cmake28 >/dev/null 2>&1;
 then
-  CMAKE=cmake
+  CMAKE=cmake28
 else
-  echo "Error - cmake is not available!"
+  echo "Error - cmake28 is not available!"
   exit 2
 fi
 
